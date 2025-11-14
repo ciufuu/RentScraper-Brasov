@@ -1,4 +1,4 @@
-"""
+```
 
 
  /$$$$$$$                        /$$      /$$$$$$                                                                     /$$$$$$$                                                   
@@ -13,8 +13,7 @@
                                                                                | $$                                                                                              
                                                                                |__/                                                                                              
 
-
-"""
+```
 
 Scopul acestui script este de a extrage date de pe mai multe site-uri ce prezintă anunțuri de chirii ci să filtreze rezultatele in funcție de dorința utilizatorului.
 
