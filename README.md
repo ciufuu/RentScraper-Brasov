@@ -1,29 +1,87 @@
-# RentScraper-Brasov
-![Last Commit](https://img.shields.io/github/last-commit/ciufuu/Scraper_Chirii)
+# 🏙️ RentScraper-Brasov  
+Scraper pentru extragerea ofertelor de închiriere din Brașov de pe **OLX** și **Publi24**, cu procesare, filtrare și export în Excel.  
+Proiect creat pentru o gestionare și accesare mai ușoară a ofertelor de chirie din Brasșov.
+
+---
+
+## 🚀 Funcționalități principale
+
+### 🔹 1. Scraping automat (OLX + Publi24)
+- extrage titlu, preț, monedă, zonă și link  
+- detectează zonele automat  
+- convertește prețurile din **EUR → RON** (cu API Forex)  
+- evită duplicatele prin `INSERT OR IGNORE`
+
+---
+
+### 🔹 2. Interfață CLI intuitivă
+Meniul principal:
+
+![Meniu](./images/meniu.png)
+
+---
+
+### 🔹 3. Filtrarea datelor
+- filtrare după preț  
+- filtrare după zonă  
+- filtrare combinată preț + zonă  
+- afișare în tabel  
+- export în Excel
+
+---
+
+### 🔹 4. Afișare progres scraping (Live)
+![Scraping OLX](./images/scraper_olx.png)
+
+Programul arată în timp real progresul paginilor procesate pentru fiecare platformă.
+
+---
+
+### 🔹 5. Export complet în Excel
+Datele colectate sunt salvate în **BazaDate.db**, iar la cerere pot fi exportate:
+
+![Excel Export](./images/excel_export.png)
+
+---
+
+## 📦 Instalare
+
+### 1. Clonează repository-ul:
+```bash
+git clone https://github.com/<username>/RentScraper-Brasov.git
+cd RentScraper-Brasov
+```
+
+### 2. Instalează dependențele:
+```bash
+pip install requests beautifulsoup4 pandas
+```
+## ▶️ Rulare
+
+Pentru a porni aplicația, rulează scriptul principal în terminal:
+
+```bash
+python scraper.py
+```
+
+După lansare, vei vedea meniul interactiv:
+
+```
+=========== MENIU ===========
+1. Rulează scrapers (OLX + Publi24)
+2. Afișează toate anunțurile
+3. Filtrează anunțurile în funcție de preț
+4. Filtrează anunțurile în funcție de zonă
+5. Filtrează anunțurile în funcție de preț și zonă
+6. Ieșire
+```
+
+---
+
+🙌 Dacă aplicația te ajută și vrei să susții proiectul, poți lăsa o **stea ⭐**  
 
 
-Scopul acestui script este de a extrage date de pe mai multe site-uri ce prezintă anunțuri de chirii ci să filtreze rezultatele in funcție de dorința utilizatorului.
 
-Programul extrage anunțurile legate de chirii si le salvează într-o bază de date , unde pot fi vizualizate și accesate ci de unde pot fi folosite pentru filtrare.
 
-Urmeaza a se adauga si posibilitatea de a filtra preturile in functie de valuta (RON/EURO) . 
-(La momentul actual functia de filtrare a pretului nu tine cont de valuta !)
 
-*Cu timpul vor fi adăugate mai multe site-uri de pe care se vor extrage date si vor fi implementate noi funcții in program!*
-Momentan programul preia date de pe urmatoarele site-uri : 
- - https://www.olx.ro/imobiliare/apartamente-garsoniere-de-inchiriat/brasov/ 
- - https://www.publi24.ro/anunturi/brasov/?q=chirie
 
-! Pentru a rula acest script este necesară instalarea următoarelor module : 
-
-*pandas
-*beautifulsoup
-*requests
-*schedule (_momentan nu este folosit dar urmează a fi implementat pentru automatizarea script-ului_)
-
-Comenzile pentru instalare : 
-
-pip install pandas,
-pip install beautifulsoup4,
-pip install requests,
-pip install schedule
