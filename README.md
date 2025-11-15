@@ -1,4 +1,7 @@
-# Scraper_Chirii
+# RentScraper-Brasov
+![Last Commit](https://img.shields.io/github/last-commit/ciufuu/Scraper_Chirii)
+
+
 Scopul acestui script este de a extrage date de pe mai multe site-uri ce prezintă anunțuri de chirii ci să filtreze rezultatele in funcție de dorința utilizatorului.
 
 Programul extrage anunțurile legate de chirii si le salvează într-o bază de date , unde pot fi vizualizate și accesate ci de unde pot fi folosite pentru filtrare.
