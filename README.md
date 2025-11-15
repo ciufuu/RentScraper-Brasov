@@ -2,7 +2,7 @@
 Scraper pentru extragerea ofertelor de închiriere din Brașov de pe **OLX** și **Publi24**, cu procesare, filtrare și export în Excel.  
 Proiect creat pentru o gestionare și accesare mai ușoară a ofertelor de chirie din Brasșov.
 
-[![Star This Repo](https://img.shields.io/badge/⭐_Star-If%20Useful!-yellow?style=for-the-badge)](https://github.com/<username>/RentScraper-Brasov)
+[![Star This Repo](https://img.shields.io/badge/⭐_Star-If%20Useful!-yellow?style=for-the-badge)](https://github.com/ciufuu/RentScraper-Brasov)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/ciufuu/RentScraper-Brasov?style=flat-square)
