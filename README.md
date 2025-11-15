@@ -48,7 +48,7 @@ Datele colectate sunt salvate în **BazaDate.db**, iar la cerere pot fi exportat
 
 ### 1. Clonează repository-ul:
 ```bash
-git clone https://github.com/<username>/RentScraper-Brasov.git
+git clone https://github.com/ciufuu/RentScraper-Brasov.git
 cd RentScraper-Brasov
 ```
 
