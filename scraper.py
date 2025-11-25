@@ -2,7 +2,7 @@ import sqlite3 as sql
 import pandas as pd
 from bs4 import BeautifulSoup
 import requests
-import schedule , time
+
 
 DB_NAME = "BazaDate.db"
 
